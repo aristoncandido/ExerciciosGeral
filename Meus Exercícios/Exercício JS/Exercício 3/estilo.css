@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+}
+
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 5px 5px   rgba(0, 0, 0, 0.446) ;
+    color: rgb(0, 204, 255);
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 5px 5px   rgba(0, 0, 0, 0.446) ;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.centro{
+ 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+
+}
+
+.conteiner{
+
+   width: 400px;
+   height: 400px;
+   background-color: rgb(37, 237, 147);
+   border-radius: 5%;
+   border: 1px solid black;
+   box-shadow: 1px 5px 15px  rgba(0, 0, 0, 0.578) ;
+}
+
+#btn{
+    width: 100px;
+    height: 30px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.474);
+    background-color: rgb(3, 144, 3);
+    border: 0;
+    border-radius: 10pt;
+    border: 1px solid white;  
+    color: white;
+}
+#btn:active{
+    color: lime;
+
+}
+
+p{   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 5px 5px   rgba(0, 0, 0, 0.446) ;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

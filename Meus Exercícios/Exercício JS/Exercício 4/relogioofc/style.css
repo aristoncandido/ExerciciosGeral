@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    
+
+}
+
+body{
+
+    background-color: black;
+
+
+
+}
+
+.conteiner{
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.tela{
+    color: rgb(255, 255, 255);
+    font-size: 80pt;
+    font-family: 'tech';
+    text-shadow:  #219aca 0px 0px 20px, #2dc3ff 0px 0px 30px, #1198ce 0px 0px 40px, #2dbcff 0px 0px 50px, #2dc3ff 0px 0px 75px, 2px 2px 2px rgba(4, 41, 77, 0);
+    transform: skewX(-8deg);
+    position: relative;
+    top: 50%;
+    transition: 0.8s;
+
+    /* configurando a tela do relógio*/
+
+}@font-face{
+
+
+    /*importando uma fonte nova*/
+
+    font-family:'tech';
+
+    src: url('/Exercício 4/pacote\ de\ fonte/Technology.ttf');
+}
+
+
+#turno{
+    color: white;
+    font-size: 20pt;
+    position: relative;
+    left: 87%;
+    top: 15%;
+    
+    /*configuração AM e PM*/
+
+}   
+
+footer{ 
+    position: absolute;
+    bottom: 7%;
+    font-family: 'tech';
+    color: rgb(69, 252, 227);
+    font-style: italic;
+    font-size: 10pt;
+    left: 50%;
+    transform: translateX(-50%);
+}

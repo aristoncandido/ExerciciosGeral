@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(132, 134, 134);
+
+
+}
+.spider{
+
+    width:800px;
+    height: 800px;
+ 
+    margin-bottom: 10%;
+    
+
+}
+
+.spider::after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    box-shadow: 
+    
+    400px 200px black,
+    400px 220px red,
+    420px 220px red,
+    440px 220px red,
+    460px 220px red,
+    480px 220px red,
+    500px 220px red,
+    520px 240px red,
+    540px 240px red,
+    560px 260px red,
+
+    420px 200px black,
+    440px 200px black,
+    460px 200px black,
+    480px 200px black,
+    500px 200px black,
+    520px 220px black,
+    540px 220px black,
+    560px 240px black,
+    580px 260px black,
+    580px 280px black,
+    600px 300px black,
+    600px 320px black,
+    600px 340px black,
+    600px 360px black,
+    600px 380px black,
+    580px 380px black,
+    580px 400px black,
+    580px 420px black,
+    580px 440px black,
+    560px 460px black,
+    540px 480px black,
+    540px 500px black,
+    520px 500px black,
+    500px 500px black,
+    560px 520px rgb(0, 0, 0),
+    580px 520px black,
+    600px 540px black,
+    600px 560px black,
+    600px 580px black,
+    600px 600px black,
+    600px 620px black,
+    600px 640px black,
+    600px 660px black,
+    580px 660px black,
+    560px 640px black,
+    560px 620px black,
+    580px 600px black,
+    580px 580px black,
+    560px 660px black,
+    560px 680px black,
+    620px 660px black,
+    620px 680px black,
+    620px 700px black,
+    640px 720px black,
+    640px 740px black,
+    620px 740px black,
+    660px 740px black,
+    660px 740px black,
+    680px 760px black,
+    680px 780px black,
+    660px 780px black,
+    660px 800px black,
+    640px 820px black,
+    620px 820px black,
+    600px 820px black,
+    600px 820px black,
+    600px 840px black,
+    600px 800px black,
+    600px 780px black,
+    600px 760px black,
+    620px 760px rgb(255, 0, 0),
+    640px 760px red,
+    620px 780px red,
+    620px 800px white,
+    640px 800px white,
+    640px 780px white,
+    660px 760px white,
+    600px 740px red,
+    600px 720px red,
+    620px 720px red,
+    580px 860px rgb(0, 0, 0),
+    580px 880px black,
+    580px 900px black,
+    560px 920px black,
+    560px 940px black,
+    540px 940px black,
+    520px 940px black,
+    560px 960px black,
+    560px 980px black,
+    580px 1000px black,
+    600px 1000px  black,
+    620px 1020px black,
+    620px 1040px black,
+    600px 1040px black,
+    580px 1040px black,
+    560px 1040px black,
+    540px 1040px black,
+    520px 1040px black,
+    500px 1040px black,
+    500px 1020px black,
+    500px 1000px black,
+    500px 980px black,
+    500px 960px black,
+    500px 940px black,
+    500px 920px black,
+    500px 900px black,
+    500px 880px black,
+    500px 860px black,
+    520px 860px black,
+    520px 880px rgb(14, 0, 143),
+    540px 880px rgb(14, 0, 143),
+    560px 880px rgb(14, 0, 143),
+    560px 860px rgb(14, 0, 143),
+    560px 840px rgb(14, 0, 143),
+    560px 820px rgb(14, 0, 143),
+    560px 800px rgb(14, 0, 143),
+    540px 840px rgb(14, 0, 143),
+    540px 860px rgb(14, 0, 143),
+    580px 840px rgb(14, 0, 143),
+    580px 820px rgb(14, 0, 143),
+    580px 800px rgb(14, 0, 143),
+    560px 900px red,
+    520px 900px rgb(14, 0, 143),
+    540px 900px rgb(14, 0, 143),
+    520px 920px red,
+    540px 920px red,
+    520px 960px red,
+    520px 980px red,
+    520px 1000px red,
+    520px 1020px red,
+    540px 1020px red,
+    560px 1020px red,
+    580px 1020px red,
+    600px 1020px red,
+    560px 1000px red,
+    540px 1000px red,
+    560px 980px red,
+    560px 960px red,
+    540px 980px red,
+    540px 960px red,
+    540px 820px rgb(14, 0, 143),
+    540px 800px rgb(14, 0, 143),
+    520px 840px rgb(0, 0, 0),
+    500px 840px rgb(0, 0, 0),
+    500px 820px rgb(0, 0, 0),
+    500px 800px rgb(0, 0, 0),
+    580px 800px rgb(0, 0, 0),
+    560px 450px red,
+    380px 220px black,
+    360px 220px black,
+    340px 240px black,
+    340px 260px black,
+    320px 280px black,
+    320px 300px black,
+    320px 320px black,
+    320px 340px black,
+     /*OLHO E PA */
+
+     400px 320px black,
+     380px 320px black,
+     380px 300px black,
+     380px 340px black,
+     380px 360px black,
+     380px 380px black,
+     400px 400px black,
+     420px 420px black,
+     440px 420px black,
+     460px 420px black,
+     480px 400px black,
+     480px 380px black,
+     500px 380px black,
+     460px 360px black,
+     440px 340px black,
+     420px 320px black,
+
+
+
+
+
+
+    320px 360px black,
+    320px 380px black,
+    340px 380px black,
+    340px 400px black,
+    340px 420px black,
+    340px 440px black,
+    360px 460px black,
+    380px 460px black,
+    380px 480px black,
+    380px 500px black,
+    360px 500px black,
+    340px 500px black,
+    320px 520px black,
+    420px 400px white,
+    440px 400px white,
+    460px 400px white,
+    460px 380px white,
+    440px 380px white,
+    420px 380px white,
+    400px 380px white,
+    400px 360px white,
+    400px 340px white,
+    420px 360px white,
+    440px 360px white,
+    420px 340px white,
+    560px 540px white,
+    540px 560px white,
+    580px 540px rgb(14, 0, 143),
+    580px 560px red,
+    560px 560px rgb(14, 0, 143),
+    560px 580px rgb(14, 0, 143),
+    560px 600px rgb(14, 0, 143),
+    540px 600px white,
+    540px 640px white,
+    540px 660px white,
+    540px 680px white,
+    580px 700px black,
+    580px 720px black,
+    580px 740px black,
+    560px 720px  rgb(14, 0, 143),
+    560px 700px red,
+    580px 680px red,
+    600px 680px red,
+    600px 700px red,
+    580px 640px red,
+    580px 620px red 
+
+;
+
+
+}
+
+
+.spider::before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-shadow: 500px 450px red,
+    450px 450px red,
+    450px 350px red,
+    450px 340px red,
+    480px 350px red,
+    400px 320px red,
+    400px 420px red,
+    400px 520px red,
+    500px 400px red,
+    460px 500px red,
+    400px 620px red,
+    460px 620px red,
+    460px 720px red,
+    420px 720px red,
+    340px 400px red,
+    340px 340px red,
+    340px 460px red
+    
+    
+    
+    ;
+
+
+
+
+}
+
