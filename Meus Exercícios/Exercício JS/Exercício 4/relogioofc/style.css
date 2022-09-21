@@ -49,11 +49,12 @@ body{
 
 
 #turno{
+    
     color: white;
     font-size: 20pt;
-    position: relative;
+    position: absolute;
     left: 87%;
-    top: 15%;
+    top: -30%;
     
     /*configuração AM e PM*/
 
@@ -62,7 +63,7 @@ body{
 footer{ 
     position: absolute;
     bottom: 7%;
-    font-family: 'tech';
+    font-family: 'tech','Roboto';
     color: rgb(69, 252, 227);
     font-style: italic;
     font-size: 10pt;
