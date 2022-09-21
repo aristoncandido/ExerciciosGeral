@@ -9,6 +9,7 @@
 body{
 
     background-color: black;
+    overflow: hidden;
 
 
 
@@ -43,7 +44,7 @@ body{
 
     font-family:'tech';
 
-    src: url('/Exercício 4/pacote\ de\ fonte/Technology.ttf');
+    src: url("/Meus\ Exercícios/Exercício JS/Exercício 4/pacote de fonte/Technology.ttf");
 }
 
 
@@ -67,4 +68,14 @@ footer{
     font-size: 10pt;
     left: 50%;
     transform: translateX(-50%);
+}
+
+#data{
+  position: absolute;
+  font-size: 15pt;
+  top: 105%;
+  left: 0.8%;
+    
+
+
 }
