@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
+
+    <title>Calculadora</title>
+</head>
+<body>
+<div class="container ">
+
+                 <div class="calculadora">
+ 
+
+                                <div class="visor">
+                                                            
+                                                <p id="visor"></p>
+                             
+                                </div>
+
+                                <div class="botoes">
+                                      
+                                    <div>
+                                        <input type="button" value="1" class="btn-dark" id="um" onclick="selecionar(1)">
+                                        
+                                        <input type="button" value="2" class="btn-dark" id="dois" onclick="selecionar(2)">
+                                        
+                                        <input type="button" value="3" class="btn-dark" id="tres" onclick="selecionar(3)">
+                                        
+                                        <input type="button" value="4" class="btn-dark" id="quatro" onclick="selecionar(4)">
+                                        
+                                        <input type="button" value="5" class="btn-dark" id="cinco" onclick="selecionar(5)">
+                                        
+                                        <input type="button" value="6" class="btn-dark" id="seis" onclick="selecionar(6)">
+                                        
+                                        <input type="button" value="7" class="btn-dark" id="sete" onclick="selecionar(7)">
+                                        
+                                        <input type="button" value="8" class="btn-dark" id="oito" onclick="selecionar(8)">
+                                        
+                                        <input type="button" value="9" class="btn-dark" id="nove" onclick="selecionar(9)">
+                                        
+                                        <input type="button" value="0" class="btn-dark" id="zero" onclick="selecionar(0)" >
+
+
+                                    </div>
+
+
+                                    <div class="operadores">
+                                         
+                                        
+                                        <input type="button" value="DEL" class="btn-dark" id="apagar" onclick="Deletar()">
+                                        <input type="button" value="+" class="btn-dark" id="somar" onclick="operar('+')">
+
+
+                                    </div>
+
+
+                                    
+
+
+                                </div>
+
+       
+
+
+
+                  </div>
+</div>
+
+<script src="script.js"></script>
+    
+</body>
+</html>

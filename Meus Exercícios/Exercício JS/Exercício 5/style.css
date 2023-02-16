@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+ box-sizing: border-box;
+
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+header{
+text-align: center;
+margin-top: 10%;
+color: rgb(62, 12, 109);
+
+}
+
+.btts{
+    display: inline;
+    position: absolute;
+    left: 51%;
+    transform: translateX(-50%);
+    margin-top: 2%;
+    
+
+   
+}
+input{
+    margin-right: 2vw;
+    background-image: linear-gradient(to right, rgb(0, 0, 255),purple,rgb(59, 58, 58));
+    color: white;
+    height: 5vh;
+    width: 12vw;
+    font-family: roboto;
+    font-size: 12pt;
+    border-radius: 20pt;
+    border: none;
+    cursor: pointer;
+}
+.resultado{
+    color: rgb(50, 10, 87);
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100.1%;
+    height: 100vh;
+   background-color: #b1d4f2;
+   background-image:linear-gradient(to right,rgb(255, 0, 0),rgb(119, 6, 6),rgb(117, 9, 9));
+   overflow-x: hidden;
+
+
+}
+
+header{
+    
+width: 100%;   
+font-family: "Spidey";
+height: 20vh;
+
+
+
+}
+.logo{}
+.efeito{
+    width: 50px;
+    height: 5px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+
+
+#icone{
+  
+
+    position: absolute;
+    top: 32%;
+    left: 8%;
+    transform: rotateZ(10deg);
+    box-shadow: 1px 2px 10px;
+    border-radius: 50%;
+    transition: 0.8s;
+
+
+}
+#icone:hover{
+    
+    transform: rotateZ(370deg);
+
+}
+
+
+.retangulo{
+    position: absolute;
+    left: -50px;
+    top: -120px;
+    width: 1250px;
+    height: 250px;
+    transform:rotateZ(-10deg);
+    background-image: linear-gradient(to bottom,rgb(18, 18, 112),rgb(6, 6, 119),rgb(11, 0, 53));
+    box-shadow: 1px 2px 20px ;
+
+}
+.logo h1{
+    color: gold;
+    text-shadow: 5px 6px 1px black;
+    position: absolute;
+    left: 12%;
+    top: 8%;
+    font-size: 3rem;
+}
+
+
+
+
+
+main{
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+    font-family: "Spidey";
+    display: flex ;
+    flex-wrap:nowrap;
+    flex-direction: row-reverse;
+    
+
+
+
+}
+@media  screen and (max-width:500px)
+     {
+           
+     }
+
+.side1{
+     
+}
+
+
+
+
+@font-face {
+     
+
+    
+    font-family: "Spidey";
+    src: url("./fontes/homecoming.otf");
+
+
+}
+
+.titulo{
+
+    font-family: "Spidey";
+    font-size: 20pt;
+    margin-bottom: 3%;
+    color: gold;
+
+}
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+
+    font-family: "Spidey";
+
+
+}
+
+.menu{
+    position: absolute;
+    top: 20%;
+    right: -35px;
+    display: flex;
+    width: 50vw;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
+    margin-right: 10px;
+    list-style: none;
+    color: gold;
+    text-shadow: 1px 2px 8px black ;
+    font-weight: 700; 
+
+
+
+    padding: 0 5%;
+    height: 5%;
+    background-image: linear-gradient(to left,rgb(23, 23, 131),rgb(9, 9, 78));
+    border-radius: 15pt;
+    box-shadow: 5px 5px black;
+
+
+}
+
+
+
+.wppr{
+
+    position: relative;
+    background-image: url("./images/spiderultimate.png");
+    background-size: cover;
+    background-position: center;
+    width: 40rem;
+    height: 10rem;
+    
+
+}
+
+
+.option{
+
+    transition: .4s;
+    cursor: pointer;
+    position: absolute;
+
+
+}
+#home{
+
+    margin-right: 65%;
+
+}
+#hq{
+    margin-right:30% ;
+}
+#missoes{
+  
+   margin-left: 10%;
+
+}
+#clarim{
+    margin-left: 60%;
+}
+
+
+
+
+
+
+
+.option:hover{
+
+    font-size: 15pt;
+
+}
+.side1{
+    margin-top: 5%;
+    padding: 2%;
+}
+.hq{
+ 
+    position: relative;
+    left: -10%;
+    width: 52%;
+    height: 40vh;
+    margin-top: 7%;
+    padding: 1% 0%;
+
+
+
+
+}
+
+.quadros{
+    height: auto;
+    width: 100%;
+    position: relative;
+    color: white;
+    background-color: black;
+    
+    box-shadow: 5px 10px 1px black;  
+    
+
+
+
+}
+
+.quadrado{
+     
+    border: 7px solid rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    grid-area: "quadrado";
+
+
+
+}
+.q1{
+    display: flex;
+    width: 100%;
+
+}
+#q1 img{
+ 
+    width: 50%;
+    height: 30rem;
+    border: 7px solid white ;
+
+}
+#q1 div #img2{
+  
+    width: 25rem;
+    height: 15rem;
+}
+#q1 div img {
+    width: 25rem;
+    height: 13rem;
+    margin-bottom: 5%;
+    
+}
+
+#picada{
+    width: 23rem;
+}
+
+#q2{
+
+}
+
+
+
+.texto{
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px black;
+    background-image: linear-gradient(to bottom,rgb(18, 18, 112),rgb(6, 6, 119),rgb(11, 0, 53));
+    width: 60%;
+    height:
+    18rem;
+    margin-left: 5%;
+    left: 10%;
+    border-radius: 20pt;
+    padding: 15px;
+    margin-top: 2%;
+
+    box-shadow: 10px 10px 1px black;
+
+}
+p{
+    font-size: 13pt;
+}
+ 
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    font-family: "Spidey";
+
+
+}
+

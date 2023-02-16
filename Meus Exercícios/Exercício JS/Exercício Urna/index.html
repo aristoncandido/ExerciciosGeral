@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Urna</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container"  onload="Verificar()" >
+                
+                
+                <div class="foto" >
+                    <img src="" alt="" width="200px" height="250px" id="candidato" >
+                    <h2 id="nome_candidato" ></h2>    
+                        
+
+                </div>
+                        
+                    <div class="bttns" >
+
+                    <div class="linha" >
+                            <input type="button" value="1"  class="btn"  id="1"  onclick="Votar(1)"  >
+                            <input type="button" value="2" class="btn"  id="2"  onclick="Votar(2)" >
+                            <input type="button" value="3"class="btn"   id="3"  onclick="Votar(3)"  >
+
+                    </div>   
+                    
+                    <div class="linha">
+                            <input type="button" value="4"class="btn"  id="4" onclick="Votar(4)"  >
+                            <input type="button" value="5"class="btn"  id="5" onclick="Votar(5)" >
+                            <input type="button" value="6"class="btn"  id="6" onclick="Votar(6)" >
+                    </div>    
+                    
+                    <div  class="linha" >
+                            <input type="button" value="7"class="btn"  id="7" onclick="Votar(7)"  >
+                            <input type="button" value="8"class="btn"  id="8" onclick="Votar(8)" >
+                            <input type="button" value="9"class="btn"  id="9" onclick="Votar(9)" >
+
+                    </div>
+                        
+                    <div class="linha">
+                            <input type="button" value="0"class="btn" onclick="Votar(0)" > 
+                            
+                    </div>
+
+                    <div class="linha">
+
+                            <input type="button" value="CONFIRMAR"  id="btn_confirma" onclick="Confirmar()" >
+                            <input type="button" value="CORRIGIR" class="btn" id="btn_corrigir" onclick="Corrigir()" >
+                            <input type="button" value="BRANCO" class="btn" id="btn_branco"  onclick="Branco()">
+
+                    </div>
+                
+
+                        
+                    </div>
+
+                    
+                <div class="visor" >
+                    <p id="tela" >
+                    
+                    </p>
+
+
+                   
+
+                </div>
+            
+                   
+                 
+              
+
+                
+              
+    </div>
+
+ <div class="relatorio">
+ 
+     
+        <input type="button" class="btn" id="rel" value="Gerar Relatório" onclick="Relatorio()">
+
+        <input type="button" id="dnv" class="btn"value="votar novamente" onclick="Corrigir()">
+         
+        <p class="votos">
+
+        </p>
+
+    </div>
+
+
+   
+
+</body>
+</html>

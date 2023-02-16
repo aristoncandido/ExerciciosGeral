@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: Roboto;
+}
+.container{
+     
+    display: flex;
+    height: 50vh;
+   justify-content: center;
+    margin: 10% auto 3% auto;
+    width: 70%;
+    
+    
+
+}
+
+#candidato{
+    width: 200px;
+    height: 250px;
+}
+
+
+.bttns{
+   width: 200px;
+   height: 280px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+
+
+   
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    margin: 2%;
+    border-radius: 5pt;
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(34, 34, 34));
+    color: white;
+    box-shadow: 1px 2px 5px black;
+    cursor: pointer;
+
+
+}
+.linha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+
+}
+#btn_confirma{
+    width: 60px;
+    height: 40px;
+    font-size: 7pt;
+    background-image: linear-gradient(to right, rgb(23, 156, 23),rgb(7, 73, 7));
+    color: white;
+    border-radius: 5pt;
+    border: 1px solid black;
+    box-shadow: 1px 2px 5px black ;
+    cursor: pointer;
+    
+}
+#btn_corrigir{
+    width: 55px;
+    height: 40px;
+    font-size: 7pt;
+    background-image: linear-gradient(to right, rgb(255, 1, 1),rgb(114, 6, 6));
+    color: white;
+    border-radius: 5pt;
+    border: 1px solid black;
+    box-shadow: 1px 2px 5px black;
+    cursor: pointer;
+
+
+}
+#btn_branco{
+    width: 55px;
+    height: 40px;
+    font-size: 7pt;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(179, 174, 174));
+    color: rgb(0, 0, 0);
+    border-radius: 5pt;
+    font-weight: 600;
+    border: 1px solid black;
+    box-shadow: 1px 2px 5px black;
+    cursor: pointer;
+
+}
+.visor{
+
+
+   height: 10vh;
+   width: 15vw;
+   border: 1px solid black;
+   border-radius: 5pt;
+   display: flex;
+   padding: 5%;
+   margin-top: 10%;
+   justify-content: center;
+   align-items: center;
+   font-weight: 700;
+   
+
+
+
+}
+#candidato{
+    display:none;
+    transition: 0.8s;
+}
+#nome_candidato{
+    text-align: center;
+    transition: 0.8s;
+    font-size: 12pt;
+     
+    border-image: url(" ");
+
+
+}
+.relatorio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+   
+
+    
+}
+.votos{
+    
+}
+
+#rel{
+  
+    color: black;
+    font-weight: 700;
+    width: 10%;
+
+    background-image: linear-gradient(to right, rgb(130, 141, 9), rgb(217, 255, 0));
+}
+
+#dnv{
+ width: 20%;
+
+
+}

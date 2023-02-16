@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+   <style>
+          div{
+
+                    background-color: black;
+                    width: 500px;
+                    height: 5px;
+                    position: absolute;
+                    top: 5%;
+                    left: -25%;
+                    animation: circ 5s forwards infinite;
+
+      
+             
+              
+
+          }
+
+          .bola{
+              width: 15px;
+              height: 15px;
+              border-radius: 50%;
+              position: absolute;
+              z-index: 1;
+              left: 100%;
+              top: -15%;
+              background-color: aqua;
+
+          }
+         
+    
+
+
+          @keyframes circ{
+
+            0%{  
+                transform: translateX(0);
+
+            }
+            50%{
+                transform: translateX(300px);
+            }
+            100%{
+                     
+                transform: translateX(-130px);
+            }
+            
+          }
+
+
+   </style>
+<body>
+    
+
+     <div class="cir">     
+
+       
+        
+          
+
+     </div>
+
+     <div class="bola circ">
+
+    </div>
+    
+</body>
+</html>
